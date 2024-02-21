@@ -1,7 +1,7 @@
 import { test, expect, describe } from "vitest";
 import { palindrome } from "./index.mjs";
 
-describe("palindrome tests", () => {
+describe("palindrome tests", (palindrome) => {
   test("palindrome function is defined", () => {
     expect(typeof palindrome).toEqual("function");
   });
